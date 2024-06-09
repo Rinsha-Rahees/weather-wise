@@ -19,7 +19,7 @@ export default {
             backgroundPosition: "50% 50%, 50% 50%",
           },
           to: {
-            backgroundPosition: "350% 50%, 350% 50%",
+            backgroundPosition: "-350% 50%, -350% 50%",
           },
         },
       },
