@@ -15,7 +15,7 @@ function Home({ textColor }) {
           <Header textColor={textColor} />
           <HeroSection textColor={textColor} />
           <HourlyForecast textColor={textColor} />
-          <WeeklyForecast />
+          <WeeklyForecast textColor={textColor}/>
           <div className="flex justify-between w-full max-w-[90%] mt-20 pb-20">
             <CalendarDisplay/>
             <EventList/>
