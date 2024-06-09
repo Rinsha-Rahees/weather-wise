@@ -11,6 +11,7 @@ function App() {
     hour12: true,
   });
 
+  //Change background to dark and texts to white - during night 
   useEffect(() => {
     if (time > "6 AM" || time > "6 PM" ) {
       setBgColor("bg-black");

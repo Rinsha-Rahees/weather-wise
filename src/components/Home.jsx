@@ -3,8 +3,9 @@ import Header from "./Header";
 import { AuroraBackground } from "../utils/aurora-background";
 import HourlyForecast from "./HourlyForecast";
 import HeroSection from "./HeroSection";
-import WeeklyForecast from "./WeeklyForecast";
-import LineGraph from "../utils/LineGraph";
+import WeeklyForecast from "./WeeklyForecast"
+import { CalendarDisplay } from "./CalendarDisplay";
+import EventList from "./EventList";
 
 function Home({ textColor }) {
   return (
@@ -15,6 +16,10 @@ function Home({ textColor }) {
           <HeroSection textColor={textColor} />
           <HourlyForecast textColor={textColor} />
           <WeeklyForecast />
+          <div className="flex justify-between w-full max-w-[90%] mt-20 pb-20">
+            <CalendarDisplay/>
+            <EventList/>
+          </div>
         </AuroraBackground>
 
       </div>
